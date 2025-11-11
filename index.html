@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Boutique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ma Marque</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="product.html">Boutique</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Bienvenue dans ma boutique !</h2>
+            <p>Découvrez nos produits exclusifs</p>
+        </section>
+
+        <section class="products">
+            <h2>Nos Produits</h2>
+            <div class="product-grid">
+                <!-- Produit 1 -->
+                <div class="product-card">
+                    <img src="images/product1.jpg" alt="Produit 1">
+                    <h3>Produit 1</h3>
+                    <p>€25.00</p>
+                    <button onclick="addToCart('Produit 1', 25)">Ajouter au panier</button>
+                </div>
+                <!-- Produit 2 -->
+                <div class="product-card">
+                    <img src="images/product2.jpg" alt="Produit 2">
+                    <h3>Produit 2</h3>
+                    <p>€30.00</p>
+                    <button onclick="addToCart('Produit 2', 30)">Ajouter au panier</button>
+                </div>
+                <!-- Produit 3 -->
+                <div class="product-card">
+                    <img src="images/product3.jpg" alt="Produit 3">
+                    <h3>Produit 3</h3>
+                    <p>€15.00</p>
+                    <button onclick="addToCart('Produit 3', 15)">Ajouter au panier</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <input type="text" placeholder="Nom" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ma Marque. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
