@@ -1,0 +1,23 @@
+[
+  {
+    "name": "T-shirt Leonix",
+    "price": 25.00,
+    "salePrice": 20.00,
+    "image": "images/tshirt.jpg",
+    "description": "T-shirt confortable et stylé pour toutes vos activités."
+  },
+  {
+    "name": "Casquette Leonix",
+    "price": 18.00,
+    "salePrice": 0,
+    "image": "images/casquette.jpg",
+    "description": "Casquette Leonix pour un look sportif et urbain."
+  },
+  {
+    "name": "Sweat Leonix",
+    "price": 40.00,
+    "salePrice": 35.00,
+    "image": "images/sweat.jpg",
+    "description": "Sweat Leonix chaud et stylé pour toutes saisons."
+  }
+]
